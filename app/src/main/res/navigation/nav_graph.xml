@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/jokeGeneratorFragment">
+
+    <fragment
+        android:id="@+id/jokeGeneratorFragment"
+        android:name="com.example.autopartspro.ui.JokeGeneratorFragment"
+        android:label="@string/joke_generator_title"
+        tools:layout="@layout/fragment_joke_generator" />
+
+</navigation>
